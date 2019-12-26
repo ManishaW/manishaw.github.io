@@ -22,7 +22,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #464e83 !important;
+  color: #4c62a0 !important;
 }
 h2{
   font-family: 'Boogaloo', cursive;
@@ -288,7 +288,7 @@ header.masthead .intro-text .intro-heading {
   margin: 0 auto;
   padding: 25px;
   text-align: center;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -305,6 +305,7 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio * {
   z-index: 2;
+  border-radius: 10px;
 }
 
 @media (min-width: 767px) {
@@ -343,7 +344,9 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
   margin-bottom: 30px;
 }
-
+.game-pics{
+  height:222px!important;
+}
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
 }
@@ -696,15 +699,17 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 /* my stuff */
 .btn-shop{
-  background-color: #5595ad;
+  background-color: #abbf1c;
   width: 163px;
   font-size: 18px;
-  border-color: #5595ad;
+  border-color: #abbf1c;
   margin-top:10px;
+  color:white;
   height: 38px;
 }
 .btn-shop:hover{
-  background-color: #336c82;
-  border-color:  #336c82;
+  background-color: #9bad1c;
+  color:white;
+  border-color:  #9bad1c;
 
 }
