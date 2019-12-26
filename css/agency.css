@@ -713,3 +713,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   border-color:  #9bad1c;
 
 }
+
+@media (max-width:400px){
+  .navbar-brand{
+    width: 219px;
+
+  }
+  .logo{
+    width:39%!important;
+  }
+}
