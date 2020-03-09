@@ -722,6 +722,21 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 }
 
+.btn-shop2{
+  background-color: #e8c852;
+  width: 163px;
+  font-size: 18px;
+  border-color: #e8c852;
+  margin-top:10px;
+  color:white;
+  height: 38px;
+}
+.btn-shop2:hover{
+  background-color: #d0b244;
+  color:white;
+  border-color:  #d0b244;
+
+}
 @media (max-width:450px){
   .navbar-brand{
     width: 150px;
