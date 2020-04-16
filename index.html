@@ -17,13 +17,17 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
+  <!-- <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'> -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Boogaloo&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Signika+Negative&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
 
@@ -34,8 +38,10 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="logo" src="logo.png" style="width:12%"></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="logo" src="logo.png" style="width:16%"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
       </button>
@@ -50,13 +56,26 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#team">Team</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li> -->
-          <!-- <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li> -->
-            <!-- <button onclick="window.location.href = 'https://play.google.com/store/apps/details?id=com.Wannibe.RocketPig&hl=en_CA';" type="button" class="btn btn-shop">PLAY ROCKET PIG</button> -->
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="">|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link socialNav" href="https://www.instagram.com/wannibestudios/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link socialNav" href="https://www.facebook.com/WannibeStudios/" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link socialNav" href="https://www.youtube.com/channel/UCnwPMw74a4wXBTw5RwB3RZQ/featured">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+
         </ul>
       </div>
     </div>
@@ -74,7 +93,11 @@
   <section class="page-section" id="services">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
+        <div class="col-lg-12 text-right">
+          <a href="https://play.google.com/store/apps/details?id=com.Wannibe.RocketPig" target="_blank" imageanchor="1">
+            <img src="img/google-play-badge.png" width='25%' ></a>
+        </div>
+       <!--  <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">About Us</h2>
           <h3 class="section-subheading text-muted">We are an indie game studio with a passion <br/>for story-telling, beautiful artwork and immersive gameplay.</h3>
         </div>
@@ -86,7 +109,7 @@
             <i class="fas fa-book fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Story-telling</h4>
-          <p class="text-muted">Captivating story-telling makes you feel like you exist in an entirely new universe.</p>
+          <p class="">Captivating story-telling makes you feel like you exist in an entirely new universe.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -94,7 +117,7 @@
             <i class="fas fa-paint-brush fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Artwork</h4>
-          <p class="text-muted">A variety of artwork ranging from 2D to 3D keeps our games interesting and modern.</p>
+          <p class="">A variety of artwork ranging from 2D to 3D keeps our games interesting and modern.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -102,10 +125,10 @@
             <i class="fas fa-gamepad fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Gameplay</h4>
-          <p class="text-muted">Interesting gameplay with unique controls and puzzles to twist your mind.</p>
+          <p class="">Interesting gameplay with unique controls and puzzles to twist your mind.</p>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
 
   <!-- Portfolio Grid -->
@@ -114,18 +137,17 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Wannibe Studio Games</h2>
-          <h3 class="section-subheading text-muted">Our Latest and Greatest Releases</h3>
+          <h3 class="section-subheading text-muted">Latest Releases and Upcoming Projects</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" href="http://www.wannibestudios.com/rocketpig" >
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
+          <a class="portfolio-link" href="http://www.wannibestudios.com/rocketpig">
+            <div class="overlay">
+              <div class="text">Blast over to the main page</div>
             </div>
             <img class="img-fluid game-pics" src="img/rocketpig.png" alt="">
+           
           </a>
           <div class="portfolio-caption">
             <h4>Rocket Pig</h4>
@@ -134,12 +156,8 @@
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid game-pics" src="img/marjorie.PNG"  alt="">
+            
+            <img class="img-fluid game-pics" src="img/marjorie.PNG" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Marjorie's Day at the Circus</h4>
@@ -148,11 +166,7 @@
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
+           
             <img class="img-fluid game-pics" src="img/securethebag.PNG" alt="">
           </a>
           <div class="portfolio-caption">
@@ -178,14 +192,14 @@
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
             <h4>Manisha Wanniarachchige</h4>
-            <p class="text-muted">Programmer</p>
+            <p class="text-muted">Co-founder, Developer</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="https://www.instagram.com/manisha_w96/" target="_blank">
                   <i class="fab fa-instagram "></i>
                 </a>
               </li>
-       
+
               <li class="list-inline-item">
                 <a href="https://www.linkedin.com/in/manishaw/" target="_blank">
                   <i class="fab fa-linkedin-in"></i>
@@ -198,14 +212,14 @@
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
             <h4>Nadisha Wanniarachchige</h4>
-            <p class="text-muted">Artist</p>
+            <p class="text-muted">Co-founder, Artist</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="https://www.instagram.com/nadisha.w/" target="_blank">
                   <i class="fab fa-instagram "></i>
                 </a>
               </li>
-             
+
               <li class="list-inline-item">
                 <a href="https://www.linkedin.com/in/nadisha-wanniarachchige-292266146/" target="_blank">
                   <i class="fab fa-linkedin-in"></i>
@@ -225,13 +239,13 @@
                   <i class="fab fa-instagram "></i>
                 </a>
               </li>
-            
+
             </ul>
           </div>
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-           
+
           </div>
         </div>
         <div class="col-sm-4">
@@ -245,7 +259,7 @@
                   <i class="fab fa-instagram "></i>
                 </a>
               </li> -->
-            
+
               <!-- <li class="list-inline-item">
                 <a href="#">
                   <i class="fab fa-linkedin-in"></i>
@@ -256,15 +270,11 @@
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-          
+
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted">We may be a small team but we have big ideas and an even bigger vision for the future of games.</p>
-        </div>
-      </div>
+
     </div>
   </section>
 
@@ -333,10 +343,21 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.linkedin.com/company/wannibe-studios">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </li>
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/channel/UCnwPMw74a4wXBTw5RwB3RZQ/featured">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <!-- <li class="list-inline-item">
+              <a class="nav-link socialNav" href="https://www.youtube.com/channel/UCnwPMw74a4wXBTw5RwB3RZQ/featured">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li> -->
+
           </ul>
         </div>
         <div class="col-md-4">
