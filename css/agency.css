@@ -747,10 +747,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .btn-shop2{
-  background-color: #fbb422;
+  background-color: #f7d35e;
   width: 243px;
   font-size: 28px;
-  border-color:#ffc550;
+  border-color:#ffdc95;
   margin-top:10px;
   color:white;
   height: 72px;
@@ -758,9 +758,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   border-radius: 12px;
 }
 .btn-shop2:hover{
-  background-color: #e0a11f;
+  background-color: #eec231;
   color:white;
-  border-color:  #e0a11f;
+  border-color:  #f6d566;
 
 }
 @media (max-width:450px){
