@@ -38,8 +38,9 @@ h4{
 .text-muted{
   color: #8f9292!important;
   font-weight: 300;
-  font-family: 'Nanum Pen Script';
-  font-size: 20px;
+  /* font-family: 'Nanum Pen Script'; */
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
 }
 h1,
 h3,
@@ -56,7 +57,7 @@ h6 {
 .page-section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   text-shadow: -3px 3px #e9e8e8;
 }
 
@@ -327,10 +328,12 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
-  font-size: 20px;
-  font-style: italic;
+  font-size: 14px;
+  /* font-style: italic; */
   margin: 0;
-  font-family: 'Nanum Pen Script';
+  /* font-family: 'Nanum Pen Script'; */
+  font-family: 'Ubuntu', sans-serif;
+
   color:#8f9292!important;
 }
 
@@ -827,4 +830,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   margin-left: 5%;
   font-size: 20px;
   font-weight: 400;
+}
+
+.spotlight-text{
+  font-family: 'Ubuntu';
+  margin-bottom: 5%!important;
+  color:#648692;
+  text-shadow: -3px 3px #e9e8e89c!important;
+  font-size: 30px!important;
 }
