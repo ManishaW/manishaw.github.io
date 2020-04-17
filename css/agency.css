@@ -822,3 +822,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   color: rgb(111, 149, 156);
   font-weight: 400;
 }
+
+.beta-testers{
+  margin-left: 5%;
+  font-size: 20px;
+  font-weight: 400;
+}
