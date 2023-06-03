@@ -60,6 +60,18 @@ h4{
   padding-top: 100px;
 }
 
+.about-studio{
+  color:white!important;
+  /* font-weight: 300; */
+  /* font-family: 'Nanum Pen Script'; */
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  text-align: justify; 
+  padding-left: 100px; 
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
 h1,
 h3,
 h5,
