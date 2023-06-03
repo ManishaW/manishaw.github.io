@@ -26,7 +26,7 @@ a:hover {
 }
 h2{
   font-family: 'Lilita One';
-  color: #bbb3d3;
+  color: #d3c8f3;
   
 }
 h4{
@@ -35,13 +35,31 @@ h4{
   font-size: 20px;
   color:#e8f5ff;
 }
-.text-muted{
-  color: #8f9292!important;
-  font-weight: 300;
+.game-description{
+  color: #fbffeb!important;
+  /* font-weight: 300; */
   /* font-family: 'Nanum Pen Script'; */
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 14px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
+
+.game-subtext{
+  color:#ffe66c!important;
+  /* font-weight: 300; */
+  /* font-family: 'Nanum Pen Script'; */
+  font-family: 'Dosis', sans-serif;
+  font-size: 22px;
+  text-align: center; 
+  padding-left: 100px; 
+  padding-right: 100px;
+  padding-top: 100px;
+}
+
 h1,
 h3,
 h5,
@@ -51,13 +69,18 @@ h6 {
 }
 
 .page-section {
-  padding: 100px 0;
+  padding: 85px 0;
   background-color: #0e0c14;
   
 }
 .page-section2 {
   padding: 100px 0;
   background-color: #18122a;
+  
+}
+.page-section3 {
+  padding: 50px 0;
+  background-color: #0b0a0c;
   
 }
 
@@ -202,7 +225,7 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: #ffebfe;
+  color: #f8f7ff;
  /* font-family: 'Fjalla One', cursive; */
   font-family: 'Lilita One'
   /* 'Patrick Hand', cursive; */
@@ -763,6 +786,7 @@ section#contact :-ms-input-placeholder {
 
 ul.social-buttons {
   margin-bottom: 0;
+  padding-top: 10px;
 }
 
 ul.social-buttons li a {
