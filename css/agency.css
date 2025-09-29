@@ -31,12 +31,12 @@ h2{
   
 }
 h2.section-heading-greek{
-  color: #6fbba5;
+  color: #9bd0ff;
 }
 
 
 h2.section-heading-foxglove{
-  color: #c9b772;
+  color: #ffe993;
 }
 h4{
   font-family: 'Josefin Sans', sans-serif;
@@ -70,7 +70,7 @@ h4{
 }
 
 .game-subtext-2{
-  color:#b4ede9!important;
+  color:#dcfddb !important;
   /* font-weight: 300; */
   /* font-family: 'Nanum Pen Script'; */
   font-family: 'Dosis', sans-serif;
@@ -167,9 +167,9 @@ img {
   transition:transform 0.25s ease;
 }
 
-img:hover {
-  -webkit-transform:scale(1.1); /* or some other value */
-  transform:scale(1.1);
+.img-hover-up:hover {
+  -webkit-transform:scale(1.1);  
+  transform:scale(1.1); 
 }
 .typewriter{
   white-space: nowrap;
