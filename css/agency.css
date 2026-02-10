@@ -1017,6 +1017,34 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   font-family: 'Oswald';
   letter-spacing: 2px;
 }
+
+/* Style for thumbnail images */
+.click-to-fullscreen {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+/* Styles for the full-screen overlay */
+.fullscreen-overlay {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* 100% of viewport width */
+  height: 100vh; /* 100% of viewport height */
+  background-color: rgba(0, 0, 0, 0.9); /* Dark background */
+  z-index: 9999; /* Ensure it is on top */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the enlarged image within the overlay */
+.fullscreen-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Ensures the whole image is visible without cropping */
+}
 /* 
 .container2{
 
