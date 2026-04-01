@@ -401,7 +401,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    /* padding-top: 300px; */
     padding-bottom: 315px;
   }
   header.masthead .intro-text .intro-lead-in {
@@ -989,9 +989,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   height: 100%;
 }
 .more-section{
-  font-family:'Fjalla One', sans-serif;
-  color: rgb(111, 149, 156);
-  font-weight: 400;
+  font-family:'Dosis', sans-serif;
+  color: #797ac9;
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 5px;
 }
 
 .beta-testers{
